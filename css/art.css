@@ -24,11 +24,6 @@ html {
     transform: translate(0px, 20px);
 }
 
-.sho {
-    opacity: 100%;
-    transform: translate(0px, 0px);
-}
-
 .marg {
     margin: 6vh 0px;
 }
@@ -100,8 +95,8 @@ iframe.wcard {
     }
 
     .img {
-        width: 100vw;
-        height: 100vw;
+        width: 50vw;
+        height: 50vw;
     }
 
     h1 {
@@ -114,8 +109,8 @@ iframe.wcard {
     }
 
     .imgcap {
-        width: 100vw;
-        height: 100vw;
+        width: 50vw;
+        height: 50vw;
         font-size: 5vw;
     }
 }
@@ -131,8 +126,8 @@ iframe.wcard {
     }
 
     .img {
-        width: 25vw;
-        height: 25vw;
+        width: 20vw;
+        height: 20vw;
     }
 
     h1 {
@@ -145,9 +140,9 @@ iframe.wcard {
     }
 
     .imgcap {
-        width: 25vw;
-        height: 25vw;
-        font-size: 2.5vw;
+        width: 20vw;
+        height: 20vw;
+        font-size: 2vw;
     }
 }
 
@@ -174,13 +169,13 @@ iframe.wcard {
     color: white;
     margin: 0px 0px;
     overflow: hidden;
-    background-size: 177.78% 100% !important;
+    background-size: 100% !important;
     background-repeat: no-repeat !important;
     background-position: center !important;
 }
 
 .img:hover {
-    background-size: 266.67% 150% !important;
+    background-size: 150% !important;
 }
 
 #squarelist {

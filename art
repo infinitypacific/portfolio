@@ -1,67 +1,49 @@
 <!DOCTYPE html>
 <html>
-<head lang="en">
-  <link rel="icon" id="favicon" href="icon.ico">
-  <link href="style.css" rel="stylesheet" type="text/css" />
-  <title>Art Portfolio</title>
+<head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta property="og:image" content="https://pacifiky.duckdns.org:8080/pfp.jpg">
-  <meta property="og:image:width" content="100">
-  <meta property="og:image:height" content="100">
-  <meta content="Pacifiky's Website" property="og:title" />
-  <meta content="funny website" property="og:description" />
-  <meta content="https://pacifiky.duckdns.org:8080" property="og:url" />
-  <meta content="#ff0000" data-react-helmet="true" name="theme-color" />
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="author" property="og:author" content="Pacifiky">
+  <meta name="viewport" content="width=device-width">
+  <title>Pacifiky's Art</title>
+  <link href="css/art.css" rel="stylesheet" type="text/css" />
+  <meta name="keywords" content="Portfolio Blender Animation 3D art" />
+  <meta property="og:site_name" content="Portfolio">
   <meta property="og:type" content="website">
-  <meta itemprop="thumbnailUrl" content="https://pacifiky.duckdns.org:8080/pfp.jpg">
-  <meta property="og:site_name" content="Click it!">
-  <meta itemprop="image" content="https://pacifiky.duckdns.org:8080/pfp.jpg">
-  <meta name="keywords" content="Portfolio"/>
+  <meta name="author" property="og:author" content="Pacifiky">
+  <meta content="#ff0000" data-react-helmet="true" name="theme-color" />
+  <meta content="Pacifiky" property="og:title" />
+  <meta content="Pacifiky's 3D art" property="og:description" />
   <meta name="twitter:site" content="@pacifiky">
-  <meta name="twitter:title" content="Cool Website">
-  <meta name="twitter:description" content="funny website">
-  <meta name="twitter:image" content="https://pacifiky.duckdns.org:8080/pfp.jpg">
-  <meta name="twitter:url" content="https://pacifiky.duckdns.org:8080">
+  <meta name="twitter:title" content="Pacifiky">
+  <meta name="twitter:description" content="Pacifiky's 3D art">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://pbs.twimg.com/profile_images/1603976643524972544/IOKMY3sY_400x400.jpg">
+  <link rel="icon" href="https://cdn.frostco.org/img/logo.ico">
+  <link rel="preconnect" href="https://cdn.frostco.org">
+  <meta property="og:image" content="https://cdn.frostco.org/main/lucaslux/artsq/Happy.webp">
+  <meta itemprop="thumbnailUrl" content="https://cdn.frostco.org/main/lucaslux/artsq/Happy.webp">
 </head>
 <body>
-  <div id="mouse"></div>
-  <header>
-  <div class="nav-container">
-  <div id="title"><a href="/"><img id="logo" src="reaction.png" alt="my actual reaction"></a>
-  <h1 id="MainHeader" onmouseover="MHMO()" onmouseleave="MHML()" title="YES">Pacifiky</h1></div>
-  <nav id="mainnav"><ul><li><a href="index.php">Php Page</a></li><li><a href="info.php">Php Info Page</a></li><li><a href="art">Art Portfolio</a></li></ul></nav>
+  <h1 id="header" class="scr hid marg">Pacifiky</h1>
+  <h2 class="scr hid">Animations</h2>
+  <div id="vidlist" class="removemarg block">
+    <iframe class="scr hid wcard" src="https://www.youtube.com/embed/rxP5wha32bg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe class="scr hid wcard" src="https://www.youtube.com/embed/NNXo0CJHcWw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe class="scr hid wcard" src="https://www.youtube.com/embed/3LF_16bLvoI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe class="scr hid wcard" src="https://www.youtube.com/embed/PKOQkqLNPwY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe class="scr hid wcard" src="https://www.youtube.com/embed/R_223l4Pn8s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe class="scr hid wcard" src="https://www.youtube.com/embed/VtROls0WL8s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <!-- <video class="scr hid wcard" src="https://cdn.frostco.org/main/lucaslux/art/gameboy600animations.mp4" controls></video> -->
   </div>
-  </header>
-  <main>
-  <div class="imgportfolio">
-    <img src="https://media.discordapp.net/attachments/1087427711175233687/1088609587021762569/Teacup.png?width=1257&height=707" alt="'Teacup'<br/>03/23/2023">
-    <img src="https://media.discordapp.net/attachments/1087427711175233687/1088236644496330752/HammerRoblox2.png?width=1257&height=707" alt="'Hammer'<br/>03/22/2023">
-    <img src="https://media.discordapp.net/attachments/1087427711175233687/1088217549621182545/sword.png?width=1257&height=707">
-    <img src="https://media.discordapp.net/attachments/1087427711175233687/1088217554218139748/cup2.png?width=1257&height=707">
-    <img src="https://media.discordapp.net/attachments/1087427711175233687/1088592246875631647/Teacup.png?width=1257&height=707">
+  <h2 class="scr hid">Squares</h2>
+  <div id="squarelist" class="removemarg"></div>
+  <h2 class="scr hid">Renders</h2>
+  <div id="imagelist" class="removemarg block">
   </div>
-  </main>
-  <footer>
-  <h2 class="header">Socials!</h2>
-  <div class="socialbar socialbarmini">
-    <a href="https://www.youtube.com/@pacifiky"><img src="youtubelogo.png" alt="my youtube!"></a>
-    <a href="https://www.twitter.com/pacifiky"><img src="twitter.png" alt="my twitter!"></a>
-    <a href="https://www.instagram.com/pacifiky/"><img src="instagram.png" alt="my instagram!"></a>
-    <a href="https://replit.com/@infinitypacific"><img src="https://seeklogo.com/images/R/replit-icon-logo-A666709FE9-seeklogo.com.png" alt="my replit!"></a>
-    <a href="https://www.tiktok.com/@pacifiky"><img src="https://static-00.iconduck.com/assets.00/tiktok-icon-1780x2048-n4ol3tdu.png" alt="my tiktok!"></a>
-  </div>
-  <h2 class="header">Contact Me!</h2>
-  <div class="socialbar socialbarmini">
-  <a href="https://discord.gg/n2tjnCucad"><img src="https://assets-global.website-files.com/6257adef93867e50d84d30e2/636e0a6a49cf127bf92de1e2_icon_clyde_blurple_RGB.png" alt="Discord"></a>
-  <a href="mailto:coolcooleeidkk@gmail.com?subject=From Site"><img src="https://img.freepik.com/free-icon/email_318-859700.jpg" alt="Email"></a>
-  </div>
-  <h6>Designed by Pacifiky!</h6>
-  <h6>Last Updated: 7/12/23</h6>
-  <h6>Site Creation Date: 05/05/2023</h6>
+  <footer class="marg">
+    Updated: 1/5/2026<br/>
+    Inception: 7/9/2024<br/>
+    © Pacifiky 2025 CC-BY-NC-SA 4.0
   </footer>
-  <script src="script.js"></script>
+  <script src="js/art.js"></script>
 </body>
 </html>
